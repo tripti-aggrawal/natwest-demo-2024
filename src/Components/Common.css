@@ -1,0 +1,77 @@
+.widget-wrapper {
+    position: absolute;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 26%;
+    padding: 1.6rem 1.2rem;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px #d4d7dc;
+}
+.widget-b2b-pos {
+    right: 2%;
+    top: 10%;
+}
+
+.widget-b2c-pos {
+    right: 9%;
+    top: 24%;
+}
+
+.modal-body {
+    text-align: left !important;
+}
+.powered-by {
+    display: inline-block;
+    padding: 0.4rem 2rem;
+    background: #5a287d;
+    color: #fff;
+    border-radius: 0.4rem;
+}
+
+.toggler-wrapper {
+    position: fixed;
+    display: inline-block;
+    left: 2px;
+    bottom: 4rem;
+}
+.custom-card-prop {
+    margin: .8rem 0.2rem;
+    padding: 1.2rem;
+    min-width: 10rem !important;
+}
+.custom-card-prop:hover {
+    background: #565656 !important;
+}
+
+.b2c-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.fa-custom-size {
+    margin-right: .6rem;
+}
+.custom-card {
+    margin: 2rem .2rem;
+    text-align: left;
+}
+.small-text {
+    font-size: .8rem;
+}
+.lighter-text {
+    color: #4f5064;
+}
+.mod-borders {
+    border-radius: 4px !important;
+}
+.img-placeholder {
+    margin: 2rem 4rem;
+    height: 164px;
+    width: 164px;
+    display: inline-block;
+    /* background-image: url(../assets/loan-a.png); */
+    background-repeat: no-repeat;
+    background-size: contain;
+}
